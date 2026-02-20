@@ -8,14 +8,11 @@ This repository contains two production-ready machine learning pipelines designe
 Both pipelines support command-line execution, automated evaluation, and headless operation for server and production environments.
 
 ---
-
 # 0. Environment Setup and Dependencies
 
 ## Python Version
 Requires **Python 3.8 or higher**  
 Recommended: **Python 3.8**
-
----
 
 ## Install Dependencies
 
@@ -179,3 +176,13 @@ The dashboard contains four charts:
 - Age Distribution (KDE)  
 - Top 5 Occupations  
 - Top 5 Education Levels  
+
+## Extended Production Deployment and API Integration
+
+A production-ready deployment of the income classification model is available as a containerized API, enabling real-time prediction. The deployment leverages Docker for containerization and AWS infrastructure for streamlined, model serving with MLFlow tracking enabled.
+
+For implementation details, deployment architecture, and API usage, please refer to:
+
+https://github.com/Karthik-0704/income_ml
+
+
