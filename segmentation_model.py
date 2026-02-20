@@ -342,7 +342,7 @@ FINAL_CLUSTER_FEATURES = [
 # CLUSTERING STEP 1: PREPROCESSING & EVALUATION
 # ==========================================================
 print("\n==========================================================")
-print("CLUSTERING STEP 1: EVALUATION (K=2 to 12)")
+print("CLUSTERING STEP 1: EVALUATION (K=2 to 10)")
 print("==========================================================\n")
 
 NUMERIC_CLUSTER_FEATS = [
@@ -382,7 +382,7 @@ X_sample = resample(X_cluster_scaled, n_samples=50000, random_state=42)
 
 inertia_values = []
 silhouette_values = []
-k_values = range(2, 10)
+k_values = range(2, 11)
 
 for k in k_values:
     kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
