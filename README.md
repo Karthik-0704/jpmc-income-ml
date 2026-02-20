@@ -7,6 +7,8 @@ This repository contains two production-ready machine learning pipelines designe
 
 Both pipelines support command-line execution, automated evaluation, and headless operation for server and production environments.
 
+The notebook `Socio_Economic_Analysis_for_Marketing_Trends.ipynb` provides a comprehensive, step-by-step record of the full workflow, including exploratory data analysis, feature engineering, redundancy testing, model training, evaluation, and segmentation analysis supporting the final production pipelines.
+
 ---
 # 0. Environment Setup and Dependencies
 
